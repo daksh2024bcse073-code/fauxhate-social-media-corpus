@@ -1,0 +1,32 @@
+# Dataset Description
+
+The FauxHate Social Media Corpus is an annotated dataset developed for multi-task natural language processing research.
+
+The corpus contains social media comments manually labeled across four tasks:
+
+1. Fake Content Detection
+2. Hate Speech Detection
+3. Target Identification
+4. Severity Classification
+
+The dataset is intended to support the development and evaluation of machine learning and transformer-based models for misinformation and harmful content analysis.
+
+## Applications
+
+* Fake News Detection
+* Hate Speech Detection
+* Multi-task Learning
+* Social Media Analytics
+* Content Moderation Systems
+* Responsible AI Research
+
+## Dataset Format
+
+CSV file containing:
+
+* id
+* text
+* Fake
+* Hate
+* Target
+* Severity

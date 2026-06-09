@@ -1,0 +1,49 @@
+# Label Definitions
+
+## Dataset Columns
+
+### id
+
+Unique identifier assigned to each social media comment.
+
+### text
+
+Raw social media text content.
+
+### Fake
+
+Binary label indicating whether the content is fake.
+
+| Value | Meaning  |
+| ----- | -------- |
+| 0     | Non-Fake |
+| 1     | Fake     |
+
+### Hate
+
+Binary label indicating whether the content contains hate speech.
+
+| Value | Meaning  |
+| ----- | -------- |
+| 0     | Non-Hate |
+| 1     | Hate     |
+
+### Target
+
+Target category of the hateful content.
+
+| Value | Meaning    |
+| ----- | ---------- |
+| I     | Individual |
+| O     | Other      |
+| R     | Religion   |
+
+### Severity
+
+Severity level of hateful content.
+
+| Value | Meaning |
+| ----- | ------- |
+| L     | Low     |
+| M     | Medium  |
+| H     | High    |
